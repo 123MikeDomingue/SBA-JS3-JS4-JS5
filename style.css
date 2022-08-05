@@ -1,0 +1,23 @@
+
+body{
+ background: bisque;
+}
+
+#main-section{
+ text-align: center;
+ margin-top: 50px;
+ 
+}
+#firstName{
+ margin: 10px;
+}
+#lastName{
+ margin: 10px;
+}
+#age{
+ margin: 10px;
+}
+
+h1{
+ color: rgb(9, 162, 170);
+}
