@@ -36,12 +36,15 @@ get age () {
 
 function newObjectCreated(firstName, lastsName, age){
 
-  let FirstName = (document.getElementById('firstName'))
-  let LastsName = new Person (document.getElementById('lastName'))
-  let Age =   new Person(document.getElementById('age'))
  
 
-alert(`Hello, ${FirstName} ${lastName} ! You are ${Age} Years old`)
+  
+  let FirstName = document.getElementById('firstName').value
+  let LastsName =  document.getElementById('lastName').value
+  let Age =   document.getElementById('age').value
+ 
+
+alert(`Hello, ${FirstName} ${LastsName} ! You are ${Age} Years old.`)
 
 
 
